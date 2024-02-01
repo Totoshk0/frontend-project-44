@@ -9,3 +9,5 @@ brain-games:
 
 link:
 	npm link
+make lint:
+	npx eslint .
