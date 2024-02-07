@@ -1,14 +1,13 @@
 import readlineSync from 'readline-sync';
-const userName = require('./cli.js');
-
-console.log('Привет, ' + userName + '!');
-
+import { greetUser } from './cli.js';
 
 const isEven = (number) => {
     return number % 2 === 0;
 };
 
-export const randomNum = () => {
+export const randomNum = (userName) => {
+
+
     console.log("Answer 'yes' if the number is even, otherwise answer 'no'.");
 
     let correctAnswersCount = 0;
