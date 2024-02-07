@@ -7,6 +7,3 @@ export const greetUser = () => {
     console.log(`Hello, ${userName}!`);
     return userName;
 };
-
-const userName = greetUser()
-export { userName }

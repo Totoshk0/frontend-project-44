@@ -5,8 +5,9 @@ const isEven = (number) => {
     return number % 2 === 0;
 };
 
-export const randomNum = (userName) => {
+export const randomNum = () => {
 
+    const userName = greetUser();
 
     console.log("Answer 'yes' if the number is even, otherwise answer 'no'.");
 
