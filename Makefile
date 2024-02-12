@@ -13,6 +13,9 @@ brain-even:
 brain-calc:
 	node bin/brain-calc.js
 
+brain-NOD:
+	node bin/brain-NOD.js
+
 link:
 	npm link
 	
