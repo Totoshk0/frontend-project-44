@@ -1,7 +1,7 @@
-const readlineSync = require('readline-sync');
+import readlineSync from 'readline-sync';
 import { greetUser } from './cli.js';
 
-function gcd(a, b) {
+const gcd = (a, b) => {
     while (b !== 0) {
         let temp = b;
         b = a % b;
@@ -9,14 +9,13 @@ function gcd(a, b) {
     }
     return a;
 }
-
-function generateQuestion() {
+const generateQuestion = () => {
     const num1 = Math.floor(Math.random() * 100) + 1;
     const num2 = Math.floor(Math.random() * 100) + 1;
     return [num1, num2];
 }
 
-function main() {
+export const large_comm = () => {
     const userName = greetUser();
 
     let correctAnswers = 0;
@@ -33,12 +32,12 @@ function main() {
             correctAnswers++;
         } else {
             console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-            console.log("Let's try again, Sam!");
+            console.log(`Let's try again, ${userName}!`);
             correctAnswers = 0;
+            return;
         }
     }
 
     console.log(`Congratulations, ${userName}!`);
-}
-
-main();
+    return;
+};
