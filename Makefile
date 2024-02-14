@@ -19,5 +19,5 @@ brain-NOD:
 link:
 	npm link
 	
-make lint:
+lint:
 	npx eslint .

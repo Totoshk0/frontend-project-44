@@ -12,7 +12,7 @@ const generateExpression = () => {
 
 const resultExpression = (expression) => eval(expression);
 
-export const calc = () => {
+export default calc = () => {
   const userName = greetUser();
 
   let correctAnswersCount = 0;
@@ -26,7 +26,7 @@ export const calc = () => {
 
     if (Number(userAnwser) === resultExpression(str)) {
       console.log('Correct!');
-      correctAnswersCount++;
+      correctAnswersCount += 1;
     } else {
       console.log(`'${userAnwser}' is wrong answer ;(. Correct answer was '${resultExpression(str)}'.`);
       console.log(`Let's try again, ${userName}!`);
