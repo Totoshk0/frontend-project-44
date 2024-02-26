@@ -16,7 +16,6 @@ const calculate = (a, b, operator) => {
 };
 
 const generateQuestionAndResult = () => {
-  const getRandomNum = 0;
   const number1 = generateNumber();
   const number2 = generateNumber();
   const operator = operators[getRandomOperator(operators)];
