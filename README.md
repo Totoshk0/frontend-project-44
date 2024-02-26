@@ -6,28 +6,28 @@
 ### brain-even
 
 ## YES
-[![asciicast](https://asciinema.org/a/k9s7eeApu6cqPKfJkK3nppLnN.svg)](https://asciinema.org/a/k9s7eeApu6cqPKfJkK3nppLnN)
+
 
 ## NO
 [![asciicast](https://asciinema.org/a/1rv0tz4hA2OqrraO9iv9VMxV3.svg)](https://asciinema.org/a/1rv0tz4hA2OqrraO9iv9VMxV3)
 
 ### brain-calc
 ## YES
-https://asciinema.org/a/CIYFbpCfCwpd4UL6cfH6OgqKA
+[![asciicast]https://asciinema.org/a/CIYFbpCfCwpd4UL6cfH6OgqKA
 
 ## NO
-https://asciinema.org/a/8zOHi9Ue1pnzYPhaHAuLqUv85
+[![asciicast]https://asciinema.org/a/8zOHi9Ue1pnzYPhaHAuLqUv85
 
 ### brain-prime
 ## YES
-https://asciinema.org/a/V4Wd2BFgFWWICgNaydL6tr6sM
+[![asciicast]https://asciinema.org/a/V4Wd2BFgFWWICgNaydL6tr6sM
 
 ## NO
-https://asciinema.org/a/ZFjWLPnt71H4BIjL6fuJnvjb1
+[![asciicast]https://asciinema.org/a/ZFjWLPnt71H4BIjL6fuJnvjb1
 
 ### brain-progression
 ## YES
-https://asciinema.org/a/3nnY7sjvzXhlyQE5B8QcwRBBl
+[![asciicast]https://asciinema.org/a/3nnY7sjvzXhlyQE5B8QcwRBBl
 
 ## NO
-https://asciinema.org/a/tfBdC8TPCoDMKgibQg2goyMHO
+[![asciicast]https://asciinema.org/a/tfBdC8TPCoDMKgibQg2goyMHO
