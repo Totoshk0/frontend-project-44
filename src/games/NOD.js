@@ -1,4 +1,4 @@
-import { generateNumber, runGame } from '../src/index.js';
+import { generateNumber, runGame } from '../index.js';
 
 const gcd = (num1, num2) => {
   let a = num1;
@@ -11,8 +11,8 @@ const gcd = (num1, num2) => {
   return a;
 };
 
-const [num1, num2] = generateNumber();
-console.log(`Question: ${num1} ${num2}`);
+const num1 = generateNumber();
+const num2 = generateNumber();
 
 const generateQuestionAndResult = () => {
   const number = generateNumber();

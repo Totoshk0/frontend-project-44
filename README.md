@@ -5,10 +5,10 @@
 
 ## brain-even
 ### YES
-[![asciicast](https://asciinema.org/a/k9s7eeApu6cqPKfJkK3nppLnN.svg)](https://asciinema.org/a/k9s7eeApu6cqPKfJkK3nppLnN)
+[![asciicast](https://asciinema.org/a/qiIDIBFPn31uVn6z8syJ5FtoL.svg)](https://asciinema.org/a/qiIDIBFPn31uVn6z8syJ5FtoL)
 
 ### NO
-[![asciicast](https://asciinema.org/a/1rv0tz4hA2OqrraO9iv9VMxV3.svg)](https://asciinema.org/a/1rv0tz4hA2OqrraO9iv9VMxV3)
+[![asciicast](https://asciinema.org/a/wBimJXrY73boa3DlD7LZuiB2q.svg)](https://asciinema.org/a/wBimJXrY73boa3DlD7LZuiB2q)
 
 ## brain-calc
 ### YES
@@ -30,3 +30,10 @@
 
 ### NO
 [![asciicast](https://asciinema.org/a/tfBdC8TPCoDMKgibQg2goyMHO.svg)](https://asciinema.org/a/tfBdC8TPCoDMKgibQg2goyMHO.svg)
+
+## brain-NOD
+### YES
+[![asciicast](https://asciinema.org/a/ufuaRNeDtzZ1SgZTXAFWyS0m5.svg)](https://asciinema.org/a/ufuaRNeDtzZ1SgZTXAFWyS0m5)
+
+### NO
+[![asciicast](https://asciinema.org/a/SFQEOVMupjXtGGL7TM1DFSwhn.svg)](https://asciinema.org/a/SFQEOVMupjXtGGL7TM1DFSwhn)
