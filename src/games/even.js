@@ -1,4 +1,4 @@
-import { generateNumber, runGame } from '../index.js';
+import { generateNumber, runGame } from "../index.js";
 
 const isEven = (number) => number % 2 === 0;
 
@@ -9,7 +9,7 @@ const generateQuestionAndResult = () => {
 };
 
 const evenGame = () => {
-  const ruleString = "Answer 'yes' if the number is even, otherwise answer 'no'.";
+  const ruleString = 'Answer "yes" if the number is even, otherwise answer "no".';
 
   runGame(ruleString, generateQuestionAndResult);
 };

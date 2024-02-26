@@ -21,7 +21,7 @@ const generateQuestionAndResult = () => {
 };
 
 const nodGame = () => {
-  const ruleString = "Answer 'yes' if the number is even, otherwise answer 'no'.";
+  const ruleString = 'Answer "yes" if the number is even, otherwise answer "no".';
 
   runGame(ruleString, generateQuestionAndResult);
 };
