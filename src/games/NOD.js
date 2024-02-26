@@ -11,19 +11,18 @@ const gcd = (num1, num2) => {
   return a;
 };
 
-const num1 = generateNumber();
-const num2 = generateNumber();
-
 const generateQuestionAndResult = () => {
-  const number = generateNumber();
-  const result = gcd(num1, num2) ? 'yes' : 'no';
-  return [number, result];
+  const randomNumber1 = Math.floor(generateNumber());
+  const randomNumber2 = Math.floor(generateNumber());
+  const question = `${randomNumber1} ${randomNumber2}`;
+  const correctAnswer = gcd(randomNumber1, randomNumber2).toString();
+  return [question, correctAnswer];
 };
 
-const nodGame = () => {
-  const ruleString = 'Answer "yes" if the number is even, otherwise answer "no".';
+const gcdGame = () => {
+  const ruleString = 'Find the greatest common divisor of given numbers.';
 
   runGame(ruleString, generateQuestionAndResult);
 };
 
-export default nodGame;
+export default gcdGame;
